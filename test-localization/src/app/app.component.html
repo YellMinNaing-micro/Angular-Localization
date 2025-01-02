@@ -1,0 +1,7 @@
+<select class="form-select p-3" (change)="changeLang($event)" name="" id="">
+  <option [selected]="lang === 'en'" value="en">English</option>
+  <option [selected]="lang === 'mm'" value="mm">Myanmar</option>
+</select>
+
+<p>{{ 'Welcome' | translate }}</p>
+<p>{{ 'Hello' | translate }}</p>
