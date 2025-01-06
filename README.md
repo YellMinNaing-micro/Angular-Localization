@@ -52,7 +52,7 @@ Choose the method that best fits your project’s requirements.
 
 **References**
 
-Angular i18n: https://angular.io/guide/i18n
+- Angular i18n: https://angular.io/guide/i18n
 
-ngx-translate: https://github.com/ngx-translate/core
+- ngx-translate: https://github.com/ngx-translate/core
 
