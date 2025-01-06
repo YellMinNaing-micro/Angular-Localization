@@ -1,6 +1,6 @@
 # Localization in Angular
 
-Introduction
+**Introduction**
 
 Localization (L10n) in Angular enables the application to support multiple languages and cultural settings. This guide provides steps to set up localization in an Angular project using the built-in internationalization (i18n) feature or third-party libraries like ngx-translate.
 
