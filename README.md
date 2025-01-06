@@ -12,7 +12,7 @@ To implement localization in Angular, you need to have Node.js and Angular CLI i
 
 Angular provides a built-in i18n module that allows static text translations. This approach is ideal for applications where translations are predefined and do not change dynamically.
 
-**Steps for Angular i18n
+**Steps for Angular i18n**
 
 Adding i18n Tags: Mark texts for translation using the i18n attribute in templates.
 
@@ -24,11 +24,11 @@ Configuring Localization: Modify Angular settings to support multiple languages 
 
 Building and Serving the Application: Compile the application for different languages and deploy the required versions.
 
-Method 2: Using ngx-translate (Dynamic Localization)
+**Method 2: Using ngx-translate (Dynamic Localization)**
 
 ngx-translate is a third-party library that allows dynamic translations. This approach is useful when the application requires real-time language switching without recompilation.
 
-Steps for ngx-translate
+**Steps for ngx-translate**
 
 Installing ngx-translate: Add the necessary dependencies for translation support.
 
@@ -40,18 +40,18 @@ Using Translations in Components: Implement ngx-translate in components to displ
 
 Serving the Application: Run the Angular application and test dynamic language switching.
 
-Conclusion
+**Conclusion**
 
 This guide covered two approaches to localization in Angular:
 
 Built-in i18n: Best for static translations that require build-time compilation.
 
 ngx-translate: Ideal for dynamic language switching at runtime.
-**
+
 Choose the method that best fits your project’s requirements.
 
-**References
-**
+**References**
+
 Angular i18n: https://angular.io/guide/i18n
 
 ngx-translate: https://github.com/ngx-translate/core
