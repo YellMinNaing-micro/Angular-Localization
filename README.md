@@ -4,15 +4,15 @@
 
 Localization (L10n) in Angular enables the application to support multiple languages and cultural settings. This guide provides steps to set up localization in an Angular project using the built-in internationalization (i18n) feature or third-party libraries like ngx-translate.
 
-Prerequisites
+**Prerequisites**
 
 To implement localization in Angular, you need to have Node.js and Angular CLI installed. You can either work on an existing Angular project or create a new one before proceeding with the localization setup.
 
-Method 1: Using Angular i18n (Built-in Localization)
+**Method 1: Using Angular i18n (Built-in Localization)**
 
 Angular provides a built-in i18n module that allows static text translations. This approach is ideal for applications where translations are predefined and do not change dynamically.
 
-Steps for Angular i18n
+**Steps for Angular i18n
 
 Adding i18n Tags: Mark texts for translation using the i18n attribute in templates.
 
@@ -47,11 +47,11 @@ This guide covered two approaches to localization in Angular:
 Built-in i18n: Best for static translations that require build-time compilation.
 
 ngx-translate: Ideal for dynamic language switching at runtime.
-
+**
 Choose the method that best fits your project’s requirements.
 
-References
-
+**References
+**
 Angular i18n: https://angular.io/guide/i18n
 
 ngx-translate: https://github.com/ngx-translate/core
