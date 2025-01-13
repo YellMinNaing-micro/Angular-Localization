@@ -22,6 +22,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   imports: [
     BrowserModule,
     AppRoutingModule,
+
     HttpClientModule,
     TranslateModule.forRoot(
       {
