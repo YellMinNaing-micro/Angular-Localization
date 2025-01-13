@@ -13,6 +13,7 @@ import { filter, map } from 'rxjs';
 
 export class AppComponent implements OnInit {
 
+  value: any;
   lang: string = '';
   private appName = 'Test Localization';
 
@@ -53,6 +54,24 @@ export class AppComponent implements OnInit {
 
     localStorage.setItem('lang', selectedLang);
     this.translateService.use(selectedLang);
+  }
+
+  onKeyDown(event: KeyboardEvent) {
+    // Allow only numeric keypad inputs
+    if (
+      (event.key === '0' || event.key === '1' || event.key === '2' ||
+        event.key === '3' || event.key === '4' || event.key === '5' ||
+        event.key === '6' || event.key === '7' || event.key === '8' ||
+        event.key === '9' || event.key === 'Tab' || event.key === 'Backspace' ||
+        event.key === 'Delete' || event.key === 'ArrowLeft' || event.key === 'ArrowRight') &&
+      !event.ctrlKey && !event.altKey && !event.metaKey
+    ) {
+      // Allow the key press
+      return;
+    }
+
+    // Prevent the default behavior for other keys
+    event.preventDefault();
   }
 }
 
